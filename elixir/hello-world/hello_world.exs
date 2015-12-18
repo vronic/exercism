@@ -1,7 +1,9 @@
 defmodule HelloWorld do
   def hello(name) do
+    "Hello, #{name}!"
+  end
 
-    "Your implementation goes here"
-
+  def hello() do
+    "Hello, World!"
   end
 end
